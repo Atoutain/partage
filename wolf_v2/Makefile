@@ -7,15 +7,18 @@ srcs/window.c srcs/calcul_wolf.c srcs/init_data_wolf.c srcs/wall_wolf.c\
 srcs/ft_put_pixel_to_image.c srcs/color.c srcs/wolf_3d.c srcs/expose.c\
 srcs/key_hook.c srcs/ft_time.c
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS = 
 
 RM = rm -rf
 
-X11FLAGS = -L.. -lmlx -L minilibx -lm \
-			gnl/libft/libft.a \
-			-framework OpenGL -framework AppKit
+LIBFT_DIR	= gnl/libft/
 
-INCLUDES = -I gnl/libft/includes/libft.h includes/wolf.h 
+X11FLAGS = -L$(LIBFT_DIR) -lft\
+			gnl/libft/libft.a \
+			mlx_linux/libmlx_Linux.a -lXext -lX11 -lm -lz
+
+
+INCLUDES = gnl/libft/includes/libft.h includes/wolf.h 
 
 OBJS = main.o get_next_line.o drawing.o parseur.o window.o wall_wolf.o\
 calcul_wolf.o init_data_wolf.o ft_put_pixel_to_image.o color.o expose.o\

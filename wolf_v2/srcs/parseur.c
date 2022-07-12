@@ -6,7 +6,7 @@
 /*   By: atoutain <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/10/06 00:55:33 by atoutain          #+#    #+#             */
-/*   Updated: 2015/10/12 13:17:05 by atoutain         ###   ########.fr       */
+/*   Updated: 2022/07/12 00:09:44 by tbrowang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ t_data		*parsing(t_data *data)
 	int		y;
 
 	y = 0;
-	data->map = open(data->map_name, O_RDONLY, S_IREAD);
+	data->map = open(data->map_name, O_RDONLY);
 	while (get_next_line(data->map, &data->line))
 	{
 		x = 0;

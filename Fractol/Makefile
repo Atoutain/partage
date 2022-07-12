@@ -7,14 +7,15 @@ SRC_C = srcs/checks_1.c srcs/choice_1.c srcs/color.c srcs/data_init.c \
 
 INCLUDES = minilibx/mlx.h includes/fractol.h libft/includes/libft.h
 
-FLAGS = -Wall -Wextra -Werror
+LIBFT_DIR = libft/
+
+FLAGS =
 
 OBJS = checks_1.o choice_1.o color.o data_init.o \
 		draw_mandelbrot.o fractol.o expose_1.o \
 		draw_julia.o mlx.o hooks_key_1.o hooks_mouse_1.o
 
-X11FLAGS = -L.. -lmlx -O3 -lm libft/libft.a -L minilibx \
-		   -framework OpenGL -framework AppKit
+X11FLAGS = -L$(LIBFT_DIR) -lft ../wolf_v2/mlx_linux/libmlx_Linux.a -lXext -lX11 -lm -lz
 
 OBJSF = $(SRC_C:.c=.o)
 

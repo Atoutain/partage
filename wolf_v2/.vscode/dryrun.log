@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/tbrowang/42/test/partage/wolf_v2'
+make -C gnl/libft/ all
+clang -c  srcs/main.c gnl/libft/get_next_line.c srcs/drawing.c srcs/parseur.c srcs/window.c srcs/calcul_wolf.c srcs/init_data_wolf.c srcs/wall_wolf.c srcs/ft_put_pixel_to_image.c srcs/color.c srcs/wolf_3d.c srcs/expose.c srcs/key_hook.c srcs/ft_time.c -I gnl/libft/includes/libft.h includes/wolf.h 
+clang -o wolf_v2 main.o get_next_line.o drawing.o parseur.o window.o wall_wolf.o calcul_wolf.o init_data_wolf.o ft_put_pixel_to_image.o color.o expose.o wolf_3d.o key_hook.o ft_time.o -Lgnl/libft/ -lft gnl/libft/libft.a mlx_linux/libmlx_Linux.a -lXext -lX11 -lm -lz
+mv -f main.o get_next_line.o drawing.o parseur.o window.o wall_wolf.o calcul_wolf.o init_data_wolf.o ft_put_pixel_to_image.o color.o expose.o wolf_3d.o key_hook.o ft_time.o objs/.
+echo "Build succesful"
+make: Leaving directory '/home/tbrowang/42/test/partage/wolf_v2'
+ 

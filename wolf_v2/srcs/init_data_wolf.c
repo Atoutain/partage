@@ -26,9 +26,9 @@ t_data		*init_first(t_data *data)
 	data->planey = 0.66;
 	data->time = 0;
 	data->oldtime = 0;
-	data->up = 126;
-	data->down = 125;
-	data->right = 124;
-	data->left = 123;
+	data->up = 119;
+	data->down = 115;
+	data->right = 100;
+	data->left = 97;
 	return (data);
 }

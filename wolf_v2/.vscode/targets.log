@@ -1,0 +1,312 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jul 12 00:26:38 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 5)
+SRC = srcs/main.c gnl/libft/get_next_line.c srcs/drawing.c srcs/parseur.c srcs/window.c srcs/calcul_wolf.c srcs/init_data_wolf.c srcs/wall_wolf.c srcs/ft_put_pixel_to_image.c srcs/color.c srcs/wolf_3d.c srcs/expose.c srcs/key_hook.c srcs/ft_time.c
+# environment
+I3SOCK = /run/user/1000/sway-ipc.1000.1665.sock
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-f465bf5c-75be-4677-9ab7-725f252b787f.sock
+# environment
+VSCODE_CWD = /home/tbrowang/42/test/partage/wolf_v2
+# environment
+SWAYSOCK = /run/user/1000/sway-ipc.1000.1665.sock
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/tbrowang/42/test/partage/wolf_v2
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/tbrowang
+# environment
+OLDPWD = /home/tbrowang/42/test/partage/wolf_v2/gnl
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/tbrowang/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LANG = C
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/tbrowang/42/test/partage/wolf_v2
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+P9K_SSH = 0
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 3189
+# environment
+XDG_SESSION_TYPE = wayland
+# makefile (from 'Makefile', line 16)
+X11FLAGS = -L$(LIBFT_DIR) -lft gnl/libft/libft.a mlx_linux/libmlx_Linux.a -lXext -lX11 -lm -lz
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 10)
+FLAGS = 
+# makefile (from 'Makefile', line 21)
+INCLUDES = gnl/libft/includes/libft.h includes/wolf.h 
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+P9K_TTY = old
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 23)
+OBJS = main.o get_next_line.o drawing.o parseur.o window.o wall_wolf.o calcul_wolf.o init_data_wolf.o ft_put_pixel_to_image.o color.o expose.o wolf_3d.o key_hook.o ft_time.o
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+TERMINFO = /usr/lib/kitty/terminfo
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 14)
+LIBFT_DIR = gnl/libft/
+# environment
+INVOCATION_ID = 132c35226a404a86a3d38de6937d6911
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 1)
+NAME = wolf_v2
+# environment
+XDG_SEAT = seat0
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = tbrowang
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 1428
+# makefile (from 'Makefile', line 12)
+RM = rm -rf
+# environment
+KITTY_WINDOW_ID = 1
+# environment
+DISPLAY = :0
+# environment
+USER = tbrowang
+# default
+MAKE_VERSION := 4.3
+# environment
+DEBUGINFOD_URLS = https://debuginfod.archlinux.org 
+# environment
+KITTY_PID = 4026
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+COLORTERM = truecolor
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/tbrowang
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-f2ae91e1-1.68.1-main.sock
+# environment
+TERM = xterm-kitty
+# environment
+XDG_SESSION_ID = 1
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+_P9K_TTY = /dev/pts/0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'Makefile', line 3)
+CC = clang
+# environment
+KITTY_INSTALLATION_DIR = /usr/lib/kitty
+# variable set hash-table stats:
+# Load=100/1024=10%, Rehash=0, Collisions=6/132=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 65025, inode 4327077): 16 files, no impossibilities.
+
+# 16 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 00:18:18.785738016
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 37):
+		@$(RM) $(OBJS)
+				@echo "Objects deleted"
+
+re: fclean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 45):
+			@echo "Project rebuild."
+
+wolf_v2:
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-12 00:19:37.750625654
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 30):
+			@make -C gnl/libft/ all
+			$(CC) -c $(FLAGS) $(SRC) -I $(INCLUDES)
+			$(CC) -o $(NAME) $(OBJS) $(X11FLAGS)
+			@mv -f $(OBJS) objs/.
+							@echo "Build succesful"
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: wolf_v2
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 41):
+			@$(RM) $(NAME)
+					@echo "Binary deleted"
+
+.PHONY: clean fclean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+ 
+# Load=9/1024=1%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 25 / storage = 179 B / avg = 7 B
+# current buf: size = 8162 B / used = 179 B / count = 25 / avg = 7 B
+
+# strcache performance: lookups = 44 / hit rate = 43%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=0/44=0%
+# Finished Make data base on Tue Jul 12 00:26:38 2022
+
+ 

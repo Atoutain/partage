@@ -6,7 +6,7 @@
 #    By: mgrimald <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/10 17:46:31 by mgrimald          #+#    #+#              #
-#    Updated: 2015/05/17 20:06:06 by mgrimald         ###   ########.fr        #
+#    Updated: 2022/07/12 00:19:29 by tbrowang         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = libft.a
 
 CC = clang
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS =
 
 DIR = includes
 

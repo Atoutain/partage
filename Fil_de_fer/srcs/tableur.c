@@ -6,7 +6,7 @@
 /*   By: atoutain <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/01/13 16:27:52 by atoutain          #+#    #+#             */
-/*   Updated: 2015/10/07 11:48:50 by atoutain         ###   ########.fr       */
+/*   Updated: 2022/07/12 00:41:46 by tbrowang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void		ft_tableur(t_daata **daata, t_data *data)
 	int			y;
 
 	y = 0;
-	map = open("map", O_RDONLY, S_IREAD);
+	map = open("map", O_RDONLY);
 	while (get_next_line(map, &line))
 	{
 		x = 0;
